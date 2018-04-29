@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.hp.godgiftchatapp.SettingsActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/profile1"
+
+        android:layout_marginBottom="23dp" />
+
+    <TextView
+        android:id="@+id/setting_display_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Display Name"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/Settings_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey there I am using godgift fitness app"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:layout_below="@+id/setting_display_name"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/Settings_change_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:text="Change Image  "
+        android:layout_below="@+id/Settings_status"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/Settings_change_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Change Status"
+        android:layout_below="@+id/Settings_change_image"
+        android:layout_alignStart="@+id/Settings_change_image" />
+
+</RelativeLayout>

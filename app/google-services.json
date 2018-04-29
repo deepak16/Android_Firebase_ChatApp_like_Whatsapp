@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "893525847581",
+    "firebase_url": "https://godgiftchatapp.firebaseio.com",
+    "project_id": "godgiftchatapp",
+    "storage_bucket": "godgiftchatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893525847581:android:f916dec033d7452d",
+        "android_client_info": {
+          "package_name": "com.example.hp.godgiftchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893525847581-a0psdpberoelu1flopqi3n7rij5s67j6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.godgiftchatapp",
+            "certificate_hash": "6110c26f7917c274c14a099052518243abdeaae8"
+          }
+        },
+        {
+          "client_id": "893525847581-31vdlnthae2a4eb80ju27mkiugl06qvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpMdCWO1aUg22UAiiaBlf4P-4u_x-USIA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893525847581-31vdlnthae2a4eb80ju27mkiugl06qvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
